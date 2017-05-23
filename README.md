@@ -1,2 +1,2 @@
-# BangyuYang.github.io
-my personal blog
+#BLOG YANG
+首页
