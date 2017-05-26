@@ -28,7 +28,7 @@ a{text-decoration:none;}
 
 }
 .y-cloumn li{
-    background-color:#c0c0c0;
+    /*background-color:#c0c0c0;*/
     width:auto;
     height:30px;
     line-height:30px;
@@ -37,6 +37,10 @@ a{text-decoration:none;}
     display:flex;
     justify-content:space-between;
 
+}
+.y-cloumn a:hover{
+    color:white;
+    background-color: #808080;
 }
 
 
