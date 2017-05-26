@@ -30,7 +30,9 @@
     <script type="text/javascript" src="jquery-1.11.3/jquery.min.js"></script>
     <script>
         $('.content').click(function()  {
-            $('#first-content').href('resource/flexLayout.md');
+            $.get("resource/flexLayout.md",function(response,status,xhr){
+                $('#first-content').html(marked(response));
+            })
         })
     </script>
 </html>
