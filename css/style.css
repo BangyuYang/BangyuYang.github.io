@@ -28,7 +28,7 @@ a{text-decoration:none;}
 
 }
 .y-cloumn li{
-    width:150%;
+    width:auto;
     height:30px;
     line-height:30px;
     float:left;
